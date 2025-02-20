@@ -12,7 +12,7 @@
 
 ## 📜 Citation
 
-The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solution implemented in **C++** and optimized using **NVIDIA TensorRT**. This project leverages the YOLOv11 model to deliver fast and accurate object detection, utilizing TensorRT to maximize inference efficiency and performance.
+The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solution implemented in **C++** and optimized using **NVIDIA TensorRT**. This project leverages the YOLOv12 model to deliver fast and accurate object detection, utilizing TensorRT to maximize inference efficiency and performance.
 
 ---
 
@@ -25,7 +25,7 @@ The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solu
 - **High Efficiency**: Optimized for real-time object detection using NVIDIA GPUs.
 - **Preprocessing with CUDA**: CUDA-enabled preprocessing for faster input handling.
 
-![Benchmark Inference Time of YOLOv11 Models](asset/Bench_YOLO_V12.JPG)
+![Benchmark Inference Time of YOLOv12 Models](asset/Bench_YOLO_V12.JPG)
 
 ---
 ## 📂 Project Structure
@@ -45,7 +45,7 @@ The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solu
 ### Prerequisites
 
 - **CMake** (version 3.18 or higher)
-- **TensorRT** (V8.6.1.6: For optimized inference with YOLOv11.)
+- **TensorRT** (V8.6.1.6: For optimized inference with YOLOv12.)
 - **CUDA Toolkit** (V11.7: For GPU acceleration)
 - **OpenCV** (V4.10.0: For image and video processing)
 - **NVIDIA GPU** (with compute capability 7.5 or higher)
@@ -55,7 +55,7 @@ The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solu
 1. Clone the repository:
    ```bash
    git clone https://github.com/hamdiboukamcha/Yolo-V12-cpp-TensorRT.git
-   cd YOLOv11-TensorRT
+   cd Yolo-V12-cpp-TensorRT
 2. Update the TensorRT and OpenCV paths in CMakeLists.txt:
    ```bash
    set(TENSORRT_PATH "F:/Program Files/TensorRT-8.6.1.6")  # Adjust this to your path
@@ -88,7 +88,7 @@ path_to_your_engine.engine: Path where the TensorRT engine file will be saved.
 ### Run Inference on Video
 To run inference on a video, use the following command:
 
-    ./YOLOv11TRT infer_video path_to_your_video.mp4 path_to_your_engine.engine
+    ./YOLOv12TRT infer_video path_to_your_video.mp4 path_to_your_engine.engine
 
 path_to_your_video.mp4: Path to the input video file.
 
