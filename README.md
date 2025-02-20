@@ -25,7 +25,7 @@ The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solu
 - **High Efficiency**: Optimized for real-time object detection using NVIDIA GPUs.
 - **Preprocessing with CUDA**: CUDA-enabled preprocessing for faster input handling.
 
-![Benchmark Inference Time of YOLOv11 Models](asset/Bench_YOLO_V11.JPG)
+![Benchmark Inference Time of YOLOv11 Models](asset/Bench_YOLO_V12.JPG)
 
 ---
 ## 📂 Project Structure
