@@ -1,6 +1,6 @@
 # YOLOv12 C++ TensorRT
 ![Inference Time of YOLOv12 ](asset/Yolo_v12_cpp_tenosrrt.PNG)
-![Inference Time of YOLOv12 ](asset/output.gif)
+![Inference Time of YOLOv12 ](asset/Results-2.gif)
 
 <a href="https://github.com/hamdiboukamcha/Yolo-V12-cpp-TensorRT" style="margin: 0 2px;">
     <img src="https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub" alt="GitHub">
