@@ -71,7 +71,7 @@ The **YOLOv12 C++ TensorRT Project** is a high-performance object detection solu
 ### Convert Yolov12 To ONNX Model
     from ultralytics import YOLO
     Load the YOLO model
-    model = YOLO("yolo12s.pt")
+    model = YOLO("yolo12n.pt")
     #Export the model to ONNX format
     export_path = model.export(format="onnx")
 
@@ -125,7 +125,7 @@ Run-time Errors: Ensure that your system has the correct CUDA drivers and that T
 
 ## 📞 Contact
 
-For advanced inquiries, feel free to contact me on LinkedIn: <a href="https://www.linkedin.com/in/hamdi-boukamcha/" target="_blank"> <img src="assets/blue-linkedin-logo.png" alt="LinkedIn" width="32" height="32"></a>
+For advanced inquiries, feel free to contact me on LinkedIn: <a href="https://www.linkedin.com/in/hamdi-boukamcha/" target="_blank"> <img src="asset/blue-linkedin-logo.png" alt="LinkedIn" width="32" height="32"></a>
 
 ## 📜 Citation
 
