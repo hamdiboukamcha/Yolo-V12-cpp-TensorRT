@@ -1,4 +1,4 @@
-# YOLOv12 C++ TensorRT (Pending ....)
+# YOLOv12 C++ TensorRT
 ![Inference Time of YOLOv12 ](asset/Yolo_v12_cpp_tenosrrt.PNG)
 ![Inference Time of YOLOv12 ](asset/output.gif)
 
